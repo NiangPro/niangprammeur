@@ -1,0 +1,216 @@
+*{
+    font-family:Constanian;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    /* background: rgb(156, 208, 218); */
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    margin: -10px;
+    background: rgb(17, 132, 167);
+}
+
+header h1{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    border: 5px solid rgb(17, 132, 167);
+    display: inline;
+    padding: 2px 15px;
+    border-radius: 32px;
+    color: #fff;
+}
+
+.welcome{
+    max-width: 100%;
+    width: 1200px;
+    margin: 10px auto;
+    height: 500px;
+    position: relative;
+}
+
+.welcome img{
+    position: absolute;
+    right: 5%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(17, 132, 167);
+    border-top-right-radius: 0;
+    top: 20%;
+}
+
+.welcome img:hover{
+    transition: 3s;
+    background-color: rgb(125, 214, 241);
+}
+
+.welcome h2{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    top: 30%;
+
+}
+
+.welcome>h2>span{
+    color: rgb(17, 132, 167);
+}
+nav{
+    position: sticky;
+    background-color: rgb(17, 132, 167);
+    top: 60px;
+    z-index: 5;
+}
+
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(245, 247, 248);
+    text-transform: capitalize;
+}
+
+/* main content style */
+main.main-content{
+    max-width: 100%;
+    padding:  0 200px;
+}
+
+
+section > h2{
+    margin-top: 3.4rem;
+    margin-bottom: 1rem;
+    color:  rgb(17, 132, 167);
+}
+
+section p{
+    font-size: 1.2rem;
+}
+
+.images{
+    display: flex;
+    justify-content:space-evenly;
+}
+.image{
+    
+    margin: 10px;   
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 15px;
+    padding: 5px;
+}
+.image img{
+    width: 100%;
+}
+
+.services .row{
+    display: flex;
+    justify-content:space-between;
+}
+
+.service{
+    margin-bottom: 25px;
+}
+.service-title{
+    display: flex;
+}
+.service-title img{
+  width:50px;
+  height:50px;
+  left: 0;
+  margin-right: 10px;
+}
+
+form{
+    width: 40%;
+    padding: 15px 15px;
+    position: absolute;
+    left:38%;
+    top: 10%;
+    background-color: rgb(17, 132, 167);
+    opacity: .8;
+    border-radius: 10px;
+    height: 300px;
+}
+
+form input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 1px solid #cccc;
+}
+
+form input[type="submit"]{
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color: white;
+    margin: 6px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.form{
+    position: relative;
+    height: 450px;
+}
+
+.form img{
+    width: 60%;
+    position: absolute;
+    left:0%;
+    justify-content: ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px  rgb(17, 132, 167);
+}
+
+.whatsapp{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.whatsapp img{
+    position: absolute;
+    left:0;
+    width: 30px;
+    height: 30px;
+    top: -20%;
+    z-index: 0;
+}
+
+.whatsapp h3{
+    position: absolute;
+    left: 10%;
+    top: -10%;
+    color: white;
+}
+
+footer{
+    text-align:center;
+    background:  rgb(17, 132, 167);
+    line-height: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+footer a{
+    color: orange;
+}
